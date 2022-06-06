@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,7 +30,7 @@
         </nav>
         <section class="h-text">
             <i class="fa-solid fa-camera" id="camera"></i>
-            <h1>aptring the moments that captivate your heart</h1>
+            <h1  data-aos="fade-up">aptring the moments that captivate your heart</h1>
             <input type="text" name="" placeholder="Search here..." />
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </section>
@@ -44,41 +45,41 @@
             </ul>
         </div>
         <div class="portfolio-item">
-            <div class="item nature">
+            <div class="item nature" data-aos="flip-left" data-aos-offset="300" data-aos-delay="100">
                 <img src="./photopix/p1.jpg" width="100" height="100" />
             </div>
-            <div class="item faishon">
+            <div class="item faishon" data-aos="flip-left" data-aos-offset="300" data-aos-delay="200">
                 <img src="./photopix/p2.jpg" width="100" height="100" />
             </div>
-            <div class="item wedding">
+            <div class="item wedding" data-aos="flip-left" data-aos-offset="300" data-aos-delay="300">
                 <img src="./photopix/p3.jpg" width="100" height="100" />
             </div>
-            <div class="item nature">
+            <div class="item nature" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200">
                 <img src="./photopix/p4.jpg" width="100" height="100" />
             </div>
-            <div class="item faishon">
+            <div class="item faishon" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
                 <img src="./photopix/p5.jpg" width="100" height="100" />
             </div>
-            <div class="item wedding">
+            <div class="item wedding" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="400">
                 <img src="./photopix/p6.jpg" width="100" height="100" />
             </div>
-            <div class="item nature">
+            <div class="item nature" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
                 <img src="./photopix/p7.jpg" width="100" height="100" />
             </div>
-            <div class="item faishon">
+            <div class="item faishon" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200">
                 <img src="./photopix/p8.jpg" width="100" height="100" />
             </div>
-            <div class="item wedding">
+            <div class="item wedding" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="300">
                 <img src="./photopix/p9.jpg" width="100" height="100" />
             </div>
         </div>
     </section>
     <section class="member">
-        <div class="member-info">
+        <div class="member-info" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
             <h1>Our <span>Information</span></h1>
             <p>What our member says</p>
         </div>
-        <div class="member-card">
+        <div class="member-card" data-aos="zoom-in-down" data-aos-offset="100" data-aos-delay="200">
             <img src="./photopix/member.png">
             <p>From Rajasthan, doing gym is good for healthy life. its helps our body to fit.it release stress from our
                 mind.From Rajasthan, doing gym is good for healthy life. its helps our body to fit.it release stress
@@ -90,7 +91,7 @@
                 <img src="./photopix/icon4.png" width="100">
 
         </div>
-        <div class="m-images">
+        <div class="m-images" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
             <img src="./photopix/s1.jpg" >
             <img src="./photopix/s2.jpg" >
             <img src="./photopix/s3.jpg" >
@@ -101,19 +102,67 @@
         </div>
     </section>
     <footer>
-        <div class="newsletter">
+        <div class="newsletter"data-aos="fade-up" data-aos-offset="100" >
             <div>
             <h2>Subscribe our newsletter</h2>
             <p>We,re a team of non-cynics who truly care for our work.</p>
           </div>
-          <div>
+          <div class="ntext" data-aos="fade-up-right" data-aos-offset="200" >
             <label>
                 <input type="text" name="" placeholder="Enter your email">
                 <button>Subscribe</button>
             </label>
          </div>
         </div>
+        <div class="f-contact" data-aos="zoom-in-up" data-aos-offset="200" >
+            <div>
+                <h1>Information</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, autem?</p>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+               <h1>Useful Links</h1>
+               <p>About Us</p>
+                <p>Gallery</p>
+                <p>Blog posts</p>
+                <p>pricing plans</p>
+            </div>
+            <div>
+              <h1>Details</h1>
+              <p>photographer</p>
+              <p>Gallery</p>
+              <p>About</p>
+              <p>pricing plans</p>
+            </div>
+            <div>
+              <h1>Help & Support</h1>
+              <p>Privacy policy</p>
+              <p>Terms and condition</p>
+              <p>Technical support</p>
+              <p>Customer care</p>
+            </div>
+        </div>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -135,6 +184,12 @@
             return false;
         }); 
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
